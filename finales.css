@@ -1,0 +1,86 @@
+
+
+
+.nav{
+    height: 3rem;
+    background-color: red;
+    outline: 3px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(90, 90, 90);
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: white;
+}
+
+.logo, .menunav, .menulogo, .noselección, .selección{
+    display: inline;
+    margin-right: 3rem;
+    font-size: 1.5rem;
+    
+}
+
+.logo{
+    font-size: 3rem;
+    
+}
+
+.selección a{
+    color:rgb(251, 255, 252);
+}
+
+nav a,.noselección a{
+    color:rgb(10, 9, 10);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+.contenidos{
+    outline: black solid;
+    padding: 0.25rem;
+}
+
+.contenidos h4{
+    margin: 5px;
+}
+
+.contenidos:hover{
+    outline: indigo solid;
+}
+
+.unidad1,.unidad2,.unidad3,.unidad4,.unidad5,.unidad6{
+    margin-top: 0.2rem;
+    padding: 1px;
+}
+
+.unidad1:hover,.unidad2:hover,.unidad3:hover,.unidad4:hover,.unidad5:hover,.unidad6:hover,.bibliografia:hover{
+    border: springgreen solid;
+    
+}
+
+.unidad1c,.unidad2c,.unidad3c,.unidad4c,.unidad5c,.unidad6c, .bibliografiac{
+    display:none;
+}
+.desarrollo{
+    
+    outline: black solid;
+    padding: 2rem;
+    margin-left: 1rem;   
+    
+}
+
+.textdesarrollo{
+    font-size: 5rem
+}
+
+.contenidos a:hover{
+    color: red;
+}
