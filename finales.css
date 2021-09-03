@@ -290,107 +290,65 @@ nav a,.noselección a{
 
 
 
-/*-------------500-1000 pixeles-------------------*/
+/*------------------------------------------------------500-1000 pixeles-------------------*/
 
 @media screen and (min-width: 500px) and ( max-width: 1000px){
 
     .divlogo{
         display: inline;
-        margin-bottom: 0.6rem;
+        padding-right: 2rem;
+        
     }
     .logo {
         padding-right: 0.2rem;
     }
-    .maderanav{
-        height: 3rem;
-    }
+   
     .header{
         height: 3rem;
     }
 
-    .maderabackground{
-        height: 150%;
-        position: fixed;
-        width: 150%;
-
-    }
-
-    .banerselección1{
-        display: inline;
-        padding-top: 0rem;
-
+    .menunav{
+        margin-right:0rem;
     }
     
-    .banerselección2{
-        display: inline;
-        padding: 0rem;
-        padding-top: 0rem;
+    .nav {
+        width: 100%;
+        display: block;
     }
 
-
-
-    .selección-text, .noselección-text{
-        font-size: 9px;
-        padding-top: 0.25rem;
-        
+    .nav a {
+        font-size:1rem;
     }
-    .selección-text{
-        font-size: 10px;
-    }
-
 
     .selección, .noselección{
-        padding-top: 0.25rem;
+        padding-top: 0rem;
         padding-left: 0.20rem;
         padding-right: 0.20rem;
+        font-size:2rem;
     }
 
     .noselección:hover{
         padding-top: 0.25rem;
     }
-
-    .container-fluit{
-        
-        width: 100%;
-
+    .grid{
+        display:inline;
     }
 
-    .divcard1, .divcard2, .divcard3{
-
-        width: 25%;
-        margin-left: 2.5rem;
-        margin-right: 1.5rem;
-        padding-left: 0rem;
-        display: inline;
-        margin-bottom: 2rem;
-        margin-top: 0.5rem;
-        
-
-        }
-
-        .divcard3{
-            display: block;
-            
-        }
-
-    
-
-    .divbuttom {
-        width: 100%;
-        margin-right: 0rem;
-
-    
+    .contenidos{
+        margin-top: 1rem;
     }
 
-    .btn{
-        width: 100%;
+    .contenidos li {
+        font-size: 0.8rem;
     }
-    
-   
-    .all1 figure{
-        width: 115px;
-        height: 140px;
-        margin-left: 2rem;
+
+    .contenidos ul{
+        margin: 0rem;
+    }
+
+    .desarrollo{
+        margin-top: 1rem;
+        margin-left: 0rem;
     }
 
 }
