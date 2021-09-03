@@ -75,3 +75,59 @@ function hoverb(){
     }
     
 };
+
+/*-------------------------------------optimización ventana----------------------- */
+window.onresize = function(){
+
+    var anchoVentana = window.innerWidth;
+    console.log(anchoVentana)
+    
+    if(anchoVentana < 500 ){
+    
+        document.getElementById("nav").style.height="7rem";
+        document.getElementById("header").style.height="7rem";
+        /*document.getElementById("divlogo").style.display="block";
+        document.getElementById("menunav").style.display="block";*/
+            
+    };
+    
+    if(anchoVentana > 500 && anchoVentana < 1000){
+    
+        document.getElementById("header").style.height="3rem";
+        document.getElementById("maderanav").style.height="3rem";
+        
+            
+   };
+  
+
+}
+/*-------------------------------------optimización menu desplegable----------------------- */
+
+var clicmenu= 1
+
+function funtionmenu(){
+
+    if(clicmenu==1){
+
+        document.getElementById("header").style.height="5rem";
+        document.getElementById("nav").style.height="5rem";
+        document.getElementById("menunav").style.display="block";
+        document.getElementById("contenidos").style.display="block";
+        document.getElementById("desarrollo").style.marginTop="2rem";
+
+        
+        clicmenu= clicmenu + 1;
+    }else{
+        
+        document.getElementById("header").style.height="3rem";
+        document.getElementById("nav").style.height="3rem";
+        document.getElementById("menunav").style.display="none";
+        document.getElementById("contenidos").style.display="none";
+        document.getElementById("desarrollo").style.marginTop="0rem";
+
+        
+        clicmenu= 1;
+    }
+
+
+}
