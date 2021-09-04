@@ -1,4 +1,11 @@
 
+.contenidoswiev{
+    display:none;
+}
+
+.contenidosdes{
+    display:none;
+}
 
 .header{
 
@@ -328,27 +335,44 @@ nav a,.noselección a{
     }
 
     .noselección:hover{
-        padding-top: 0.25rem;
+        padding-top: 0rem;
     }
+/*...........................................................................................................*/
+    .contenidoswiev{
+        display: block;
+        outline: 3px solid;
+        margin-top: 1rem;
+    }
+
+    .unidada,.unidadb,.unidadc,.unidadd,.unidade,.unidadf, .expectativasexp, .bibliografiabi{
+        display: inline-block;
+        margin-left: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .contenidoswiev h4{
+        margin: 0rem;
+    }
+
+    .contenidosdes{
+        outline: 3px solid;
+        display:block;
+    }
+
+/*...........................................................................................................*/
+
     .grid{
         display:inline;
     }
 
     .contenidos{
-        margin-top: 1rem;
-    }
-
-    .contenidos li {
-        font-size: 0.8rem;
-    }
-
-    .contenidos ul{
-        margin: 0rem;
+        display: none;
     }
 
     .desarrollo{
         margin-top: 1rem;
         margin-left: 0rem;
+        display: none;
     }
 
 }

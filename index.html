@@ -49,7 +49,65 @@
     </header>
 
 <!-------------------------------------------------------DESARROLLO DE LA PÁGINA-------------------------------------------------------->
+    <div class="contenidoswiev">
+        
 
+        <div class="unidada" id="unidada" >
+        
+            <il value="-" ><h4>UNIDAD 1</h4></il>
+         
+        </div>
+            
+        
+
+        <div class="unidadb" >
+        
+            <il value="-" id="unidadb" onclick="hoverb()"><h4>UNIDAD 2</h4></il>
+        
+        </div>  
+
+        <div class="unidadc"  >
+            
+            <il value="-" id="unidadc" onclick="hoverc()"><h4>UNIDAD 3</h4></il>
+            
+        </div>  
+
+        <div class="unidadd" >
+            
+            <il value="-" id="unidadd" onclick="hoverd()"><h4>UNIDAD 4</h4></il>
+            
+        </div>  
+
+        <div class="unidade" >
+            
+            <il value="-" id="unidade" onclick="hovere()"><h4>UNIDAD 5</h4></il>
+            
+        </div>
+
+        <div class="unidadf" >
+
+            <il value="-" id="unidadf" onclick="hoverf()"><h4>UNIDAD 6</h4></il>
+
+        </div>
+
+        <div class="expectativasexp">
+            <il value="-" id="expectativasexp" onclick="hoverexp()"><h4>Expectativas de logro</h4></il>
+            
+        </div>
+
+        <div class="bibliografiabi" >
+            
+            <il value="-" id="bibliografiabi" onclick="hoverbi()"><h4>Bibliografia</h4></il>
+            
+
+        </div>
+
+
+    </div>
+
+    <div class="contenidosdes" id="contenidosdes" style="margin-top: 1rem;">
+
+    </div>
     
     <div class="grid">
 
@@ -62,20 +120,20 @@
                 <ul value="-" id="unidad1" onclick="hover()"><li><h4>UNIDAD 1</h4></li></ul>
             
                 <div class="unidad1c" id="unidad1c">
-                                <li><a href="#desarrollo" id="1">Conceptos y caracterización de la vida</a></li>
+                    <li><a href="#desarrollo" id="1">Conceptos y caracterización de la vida</a></li>
 
-                                <li><a>Teorías de origen de la vida</a></li>
+                    <li><a>Teorías de origen de la vida</a></li>
 
-                            <li> <a>Evolución química y tierra primitiva. </a></li>
+                <li> <a>Evolución química y tierra primitiva. </a></li>
 
-                                <li><a>Elementos Biogénicos: características generales y particulares</a></li>
+                    <li><a>Elementos Biogénicos: características generales y particulares</a></li>
 
-                                <li><a>Biomoléculas</a></li>
+                    <li><a>Biomoléculas</a></li>
 
-                                    <li><a>Principales grupos. Características, propiedades primordiales.</a></li>
+                        <li><a>Principales grupos. Características, propiedades primordiales.</a></li>
 
-                                <h4>Caso problema:</h4>
-                                    <li><a>Implicancias de una atmósfera primitiva reductora u oxidante.</a></li>
+                    <h4>Caso problema:</h4>
+                        <li><a>Implicancias de una atmósfera primitiva reductora u oxidante.</a></li>
                 </div>  
             </div>
                 
@@ -278,6 +336,8 @@
     
 </body>
 <script type="text/javascript" src="./jquery.js"></script>
+
+
     <script>
         $(document).ready(function(){
         $('#AQ').click(function(){
@@ -290,18 +350,63 @@
         $('#desarrollo').load("EDI2.html");
         });
     });
-
-    $(document).ready(function(){
-        $('#1').click(function(){
-        $('#desarrollo').load("contenido1.html");
-        });
-    });
-
+    
     $(document).ready(function(){
         $('#logo').click(function(){
         $('#desarrollo').load("logo.html");
         });
     });
+
+    $(document).ready(function(){
+    $('#1').click(function(){
+    $('#desarrollo').load("contenido1.html");
+    });
+});
+
+    /*.........500 a 1000 px ................... */
+
+    $(document).ready(function(){
+        $('#unidada').click(function(){
+            /*document.getElementById("contenidosdes").style.display="block";*/
+            $('#contenidosdes').load("/contenidosdes/unidad1.html");
+        });
+    });
+
+    $(document).ready(function(){
+        $('#unidadb').click(function(){
+            /*document.getElementById("contenidosdes").style.display="block";*/
+            $('#contenidosdes').load("/contenidosdes/unidad2.html");
+        });
+    });
+
+    $(document).ready(function(){
+        $('#unidadc').click(function(){
+            /*document.getElementById("contenidosdes").style.display="block";*/
+            $('#contenidosdes').load("/contenidosdes/unidad3.html");
+        });
+    });
+
+    $(document).ready(function(){
+        $('#unidadd').click(function(){
+            /*document.getElementById("contenidosdes").style.display="block";*/
+            $('#contenidosdes').load("/contenidosdes/unidad4.html");
+        });
+    });
+
+    $(document).ready(function(){
+        $('#unidade').click(function(){
+            /*document.getElementById("contenidosdes").style.display="block";*/
+            $('#contenidosdes').load("/contenidosdes/unidad5.html");
+        });
+    });
+
+    $(document).ready(function(){
+        $('#unidadf').click(function(){
+            /*document.getElementById("contenidosdes").style.display="block";*/
+            $('#contenidosdes').load("/contenidosdes/unidad6.html");
+        });
+    });
+
     </script>
 
 <script type="text/javascript" src="./qb.js"></script>
