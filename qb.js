@@ -84,24 +84,29 @@ window.onresize = function(){
     
     if(anchoVentana < 500 ){
     
-        document.getElementById("nav").style.height="7rem";
-        document.getElementById("header").style.height="7rem";
-        /*document.getElementById("divlogo").style.display="block";
-        document.getElementById("menunav").style.display="block";*/
+        document.getElementById("nav").style.height="3rem";
+        document.getElementById("header").style.height="3rem";
+        document.getElementById("menunav").style.display="none";
+
+  
             
     };
     
     if(anchoVentana > 500 && anchoVentana < 1000){
     
+        document.getElementById("divlogo").style.display="inline";
+        document.getElementById("menunav").style.display="inline";
+        document.getElementById("contenidos").style.display="none";
         document.getElementById("header").style.height="3rem";
-        document.getElementById("maderanav").style.height="3rem";
+        
+
         
             
    };
   
 
 }
-/*-------------------------------------optimización menu desplegable----------------------- */
+/*-------------------------------------optimización menu desplegable-----320px------------------ */
 
 var clicmenu= 1
 
@@ -131,3 +136,4 @@ function funtionmenu(){
 
 
 }
+

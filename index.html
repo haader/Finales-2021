@@ -57,9 +57,9 @@
     <div class="contenidoswiev">
         
 
-        <div class="unidadb" class="unidada" ></div>
+        <div class="unidada" >
         
-            <il href="#contenidosdes" id="unidada" ><h4>UNIDAD 1</h4></il>
+            <il href="#contenidosdes" id="unidada" ><h4>Unidad 1</h4></il>
 
         </div>  
         
@@ -68,42 +68,42 @@
 
         <div class="unidadb" >
         
-            <il value="-" id="unidadb" onclick="hoverb()"><h4>UNIDAD 2</h4></il>
+            <il value="-" id="unidadb"><h4>Unidad 2</h4></il>
         
         </div>  
 
         <div class="unidadc"  >
             
-            <il value="-" id="unidadc" onclick="hoverc()"><h4>UNIDAD 3</h4></il>
+            <il value="-" id="unidadc" ><h4>Unidad 3</h4></il>
             
         </div>  
 
         <div class="unidadd" >
             
-            <il value="-" id="unidadd" onclick="hoverd()"><h4>UNIDAD 4</h4></il>
+            <il value="-" id="unidadd" ><h4>Unidad 4</h4></il>
             
         </div>  
 
         <div class="unidade" >
             
-            <il value="-" id="unidade" onclick="hovere()"><h4>UNIDAD 5</h4></il>
+            <il value="-" id="unidade" ><h4>Unidad 5</h4></il>
             
         </div>
 
         <div class="unidadf" >
 
-            <il value="-" id="unidadf" onclick="hoverf()"><h4>UNIDAD 6</h4></il>
+            <il value="-" id="unidadf"><h4>Unidad 6</h4></il>
 
         </div>
 
         <div class="expectativasexp">
-            <il value="-" id="expectativasexp" onclick="hoverexp()"><h4>Expectativas de logro</h4></il>
+            <il value="-" id="expectativasexp"><h4>Expectativas de logro</h4></il>
             
         </div>
 
         <div class="bibliografiabi" >
             
-            <il value="-" id="bibliografiabi" onclick="hoverbi()"><h4>Bibliografia</h4></il>
+            <il value="-" id="bibliografiabi" ><h4>Bibliografia</h4></il>
             
 
         </div>
@@ -114,6 +114,11 @@
     <div class="contenidosdes" id="contenidosdes" style="margin-top: 1rem;">
 
     </div>
+
+
+
+
+
     
     <div class="grid">
 
@@ -123,7 +128,7 @@
             
 
             <div class="unidad1" >
-                <ul value="-" id="unidad1" onclick="hover()"><li><h4>UNIDAD 1</h4></li></ul>
+                <ul value="-" id="unidad1" onclick="hover()"><li><h4>Unidad 1</h4></li></ul>
             
                 <div class="unidad1c" id="unidad1c">
                     <li><a href="#desarrollo" id="1">Conceptos y caracterización de la vida</a></li>
@@ -146,7 +151,7 @@
             
 
             <div class="unidad2" >
-                <ul id="unidad2" onclick="hover2()"><li><h4>UNIDAD 2</h4></li></ul>
+                <ul id="unidad2" onclick="hover2()"><li><h4>Unidad 2</h4></li></ul>
             
                     <div class="unidad2c" id="unidad2c">    
 
@@ -169,7 +174,7 @@
             </div>  
 
             <div class="unidad3"  >
-                <ul id="unidad3" onclick="hover3()"><li><h4>UNIDAD 3</h4></li></ul>
+                <ul id="unidad3" onclick="hover3()"><li><h4>Unidad 3</h4></li></ul>
                 <div class="unidad3c" id="unidad3c">
                         
                             <li><a>la membrana plasmatica como límite de los sistemas biológicos celulares</a></li>
@@ -201,7 +206,7 @@
             </div>  
 
             <div class="unidad4" >
-                <ul id="unidad4" onclick="hover4()"><li><h4>UNIDAD 4</h4></li></ul>
+                <ul id="unidad4" onclick="hover4()"><li><h4>Unidad 4</h4></li></ul>
                 <div class="unidad4c" id="unidad4c">
                         
                             <li><a>Proteínas y actividad catalítica</a></li>
@@ -239,7 +244,7 @@
             </div>  
 
             <div class="unidad5" >
-                <ul id="unidad5"  onclick="hover5()"><li><h4>UNIDAD 5</h4></li></ul>
+                <ul id="unidad5"  onclick="hover5()"><li><h4>Unidad 5</h4></li></ul>
                 <div class="unidad5c" id="unidad5c">
                         
                             <li><a>Hidratos de carbono: Caracterización</a></li>
@@ -264,7 +269,7 @@
             </div>
 
             <div class="unidad6" >
-                <ul id="unidad6" onclick="hover6()"><li><h4>UNIDAD 6</h4></li></ul>
+                <ul id="unidad6" onclick="hover6()"><li><h4>Unidad 6</h4></li></ul>
                         
                 <div class="unidad6c" id="unidad6c">
                             <li><a>Metabolismo de hidratos de carbono: la glucosa como metabolito</a></li>
@@ -410,6 +415,20 @@
         $('#unidadf').click(function(){
             /*document.getElementById("contenidosdes").style.display="block";*/
             $('#contenidosdes').load("/contenidosdes/unidad6.html");
+        });
+    });
+
+    $(document).ready(function(){
+        $('#bibliografiabi').click(function(){
+            /*document.getElementById("contenidosdes").style.display="block";*/
+            $('#contenidosdes').load("/contenidosdes/bibliografia.html");
+        });
+    });
+    
+    $(document).ready(function(){
+        $('#expectativasexp').click(function(){
+            /*document.getElementById("contenidosdes").style.display="block";*/
+            $('#contenidosdes').load("/contenidosdes/expectativa.html");
         });
     });
 
