@@ -57,15 +57,12 @@
     <div class="contenidoswiev">
         
 
-        <div class="unidada" id="unidada">
+        <div class="unidada" id="unidada" onclick="unidada()">
         
             <il >  <h4>Unidad 1</h4> </il>
 
         </div>  
         
-            
-        
-
         <div class="unidadb" id="unidadb">
         
             <il value="-" ><h4>Unidad 2</h4></il>
@@ -376,12 +373,11 @@
 
     /*.........500 a 1000 px ................... */
 
-    $(document).ready(function(){
-        $('#unidada').click(function(){
+    function unidada(){
             /*document.getElementById("contenidosdes").style.display="block";*/
             $('#contenidosdes').load("/contenidosdes/unidad1.html");
-        });
-    });
+        };
+    
 
     $(document).ready(function(){
         $('#unidadb').click(function(){
