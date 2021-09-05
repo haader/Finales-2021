@@ -342,6 +342,9 @@ nav a,.noselección a{
         display: block;
         outline: 3px solid;
         margin-top: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+
     }
 
     .unidada,.unidadb,.unidadc,.unidadd,.unidade,.unidadf, .expectativasexp, .bibliografiabi{
