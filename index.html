@@ -375,9 +375,13 @@
 
     function unidada(){
             /*document.getElementById("contenidosdes").style.display="block";*/
-        $('#unidada').ready(function(){
+            document.getElementById("contenidosdes").style.display="block"
+            document.getElementById("contenidosdes").style.outlineColor="red";
+            document.getElementById("unidada").style.color="red";
+
+
             $('#contenidosdes').load("/contenidosdes/unidad1.html");
-        })}
+        }
     
 
     $(document).ready(function(){
