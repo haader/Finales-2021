@@ -59,7 +59,7 @@
 
         <div class="unidada" id="unidada" onclick="unidada()">
         
-            <il >  <h4>Unidad A1</h4> </il>
+            <il >  <h4>Unidad AA1</h4> </il>
 
         </div>  
         
@@ -375,8 +375,9 @@
 
     function unidada(){
             /*document.getElementById("contenidosdes").style.display="block";*/
+        $('#unidada').ready(function(){
             $('#contenidosdes').load("/contenidosdes/unidad1.html");
-        };
+        })}
     
 
     $(document).ready(function(){
